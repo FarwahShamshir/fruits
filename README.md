@@ -1,16 +1,36 @@
-# getx
+# GetX Fruit List App
 
-A new Flutter project.
+This project is a simple Flutter application that demonstrates the use of the **GetX** package for state management. The app allows users to interact with a list of fruits and mark/unmark them as favorites.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display a list of fruits using **GetX** for reactive state management.
+- Add or remove fruits from a favorites list.
+- Clean UI with **Flutter** widgets like `AppBar`, `ListView`, and `Card`.
+- **SnackBar** notifications for adding/removing fruits from favorites.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: The UI framework used for building the app.
+- **GetX**: For state management and reactive UI updates.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run the Project
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app**:
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
